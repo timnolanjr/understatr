@@ -8,7 +8,7 @@ status](https://travis-ci.org/ewenme/understatr.svg?branch=master)](https://trav
 ## Overview
 
 An R package to help with retrieving tidy
-[understat](https://understat.com/) data.
+[understat](https://understat.com/) data. Forked from [ewenhenderson](https://github.com/ewenme/understatr).
 
 ## Install
 
@@ -30,14 +30,14 @@ library(understatr)
 ``` r
 get_leagues_meta()
 #> # A tibble: 36 x 4
-#>    league_name  year season    url                                      
-#>    <chr>       <dbl> <chr>     <chr>                                    
-#>  1 EPL          2019 2019/2020 https://understat.com/league/EPL/2019    
-#>  2 EPL          2018 2018/2019 https://understat.com/league/EPL/2018    
-#>  3 EPL          2017 2017/2018 https://understat.com/league/EPL/2017    
-#>  4 EPL          2016 2016/2017 https://understat.com/league/EPL/2016    
-#>  5 EPL          2015 2015/2016 https://understat.com/league/EPL/2015    
-#>  6 EPL          2014 2014/2015 https://understat.com/league/EPL/2014    
+#>    league_name  year season    url
+#>    <chr>       <dbl> <chr>     <chr>
+#>  1 EPL          2019 2019/2020 https://understat.com/league/EPL/2019
+#>  2 EPL          2018 2018/2019 https://understat.com/league/EPL/2018
+#>  3 EPL          2017 2017/2018 https://understat.com/league/EPL/2017
+#>  4 EPL          2016 2016/2017 https://understat.com/league/EPL/2016
+#>  5 EPL          2015 2015/2016 https://understat.com/league/EPL/2015
+#>  6 EPL          2014 2014/2015 https://understat.com/league/EPL/2014
 #>  7 La liga      2019 2019/2020 https://understat.com/league/La liga/2019
 #>  8 La liga      2018 2018/2019 https://understat.com/league/La liga/2018
 #>  9 La liga      2017 2017/2018 https://understat.com/league/La liga/2017
